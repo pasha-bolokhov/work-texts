@@ -1,0 +1,36 @@
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+
+
+\def\ie{{\it i.e.}}
+\def\eg{{\it e.g.}}
+\newcommand{\p}{\partial}
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\md}{\mathcal{D}}
+\newcommand{\wt}{\widetilde}
+\newcommand{\ov}{\overline}
+\newcommand{\suc}{{\rm SU}_{\rm C}(3)}
+\newcommand{\sul}{{\rm SU}_{\rm L}(2)}
+\newcommand{\ue}{{\rm U}(1)}
+\newcommand{\GeV}{{\rm GeV}}
+\newcommand{\eV}{{\rm eV}}
+\newcommand{\ha}{\frac{1}{2}}
+\newcommand{\lgr}{\left\lgroup}
+\newcommand{\rgr}{\right\rgroup}
+
+%\newcommand{\su3}{{\rm SU}_{\rm C}(3)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Slash character...
+\def\slashed#1{\setbox0=\hbox{$#1$}             % set a box for #1
+   \dimen0=\wd0                                 % and get its size
+   \setbox1=\hbox{/} \dimen1=\wd1               % get size of /
+   \ifdim\dimen0>\dimen1                        % #1 is bigger
+      \rlap{\hbox to \dimen0{\hfil/\hfil}}      % so center / in box
+      #1                                        % and print #1
+   \else                                        % / is bigger
+      \rlap{\hbox to \dimen1{\hfil$#1$\hfil}}   % so center #1
+      /                                         % and print /
+   \fi}                                        %
+%%EXAMPLE:  $\slashed{E}$ or $\slashed{E}_{t}$
+
+\newcommand{\LUV}{\Lambda_{\rm UV}}
