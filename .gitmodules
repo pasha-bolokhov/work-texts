@@ -62,3 +62,19 @@
 	path = qwave
 	url = git@github.com:pasha-bolokhov/qwave
 	branch = master
+[submodule "edm"]
+	path = edm
+	url = git@github.com:pasha-bolokhov/edm
+	branch = master
+[submodule "lepto"]
+	path = lepto
+	url = git@github.com:pasha-bolokhov/lepto
+	branch = master
+[submodule "sm5"]
+	path = sm5
+	url = git@github.com:pasha-bolokhov/sm5
+	branch = master
+[submodule "sqed"]
+	path = sqed
+	url = git@github.com:pasha-bolokhov/sqed
+	branch = master
