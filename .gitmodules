@@ -1,45 +1,64 @@
 [submodule "adjoints"]
 	path = adjoints
 	url = git@github.com:pasha-bolokhov/adjoints.git
+	branch = master
 [submodule "books"]
 	path = books
 	url = git@github.com:pasha-bolokhov/texts-books.git
+	branch = master
 [submodule "cms"]
 	path = cms
 	url = git@github.com:pasha-bolokhov/cms.git
+	branch = master
 [submodule "cpss"]
 	path = cpss
 	url = git@github.com:pasha-bolokhov/cpss.git
+	branch = master
 [submodule "cptowers"]
 	path = cptowers
 	url = git@github.com:pasha-bolokhov/cptowers.git
+	branch = master
 [submodule "hetmass"]
 	path = hetmass
 	url = git@github.com:pasha-bolokhov/hetmass.git
+	branch = master
 [submodule "kappa"]
 	path = kappa
 	url = git@github.com:pasha-bolokhov/kappa.git
+	branch = master
 [submodule "largeNhet"]
 	path = largeNhet
 	url = git@github.com:pasha-bolokhov/largeNhet.git
+	branch = master
 [submodule "local"]
 	path = local
 	url = git@github.com:pasha-bolokhov/local.git
+	branch = master
 [submodule "mm"]
 	path = mm
 	url = git@github.com:pasha-bolokhov/mm.git
+	branch = master
 [submodule "na-fluid"]
 	path = na-fluid
 	url = git@github.com:pasha-bolokhov/na-fluid.git
+	branch = master
 [submodule "new"]
 	path = new
 	url = git@github.com:pasha-bolokhov/texts-new.git
+	branch = master
 [submodule "notes"]
 	path = notes
 	url = git@github.com:pasha-bolokhov/texts-notes.git
+	branch = master
 [submodule "sspfs08"]
 	path = sspfs08
 	url = git@github.com:pasha-bolokhov/sspfs08.git
+	branch = master
 [submodule "un"]
 	path = un
 	url = git@github.com:pasha-bolokhov/un.git
+	branch = master
+[submodule "qwave"]
+	path = qwave
+	url = git@github.com:pasha-bolokhov/qwave
+	branch = master
